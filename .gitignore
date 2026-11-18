@@ -1,0 +1,25 @@
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Salidas temporales y snapshots del análisis (se conserva .gitkeep)
+outputs/*
+!outputs/.gitkeep
+
+# Diffs, logs y volcados locales
+*.diff
+*.log
+
+# Variables de entorno locales
+.env
+
+# Carpeta del proyecto analizado (evita anidar el repo del equipo dentro de este)
+IDS_ProyectoFinal_equipo10/
+
